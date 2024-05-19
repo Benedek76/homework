@@ -9,10 +9,10 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Carbon;
 
 /**
-+ * @property int $id
-+ * @property Carbon $created_at
-+ * @property Carbon $updated_at
-+ * @property-read EloquentCollection<int, Event> $events
+ * @property int $id
+ * @property Carbon $created_at
+ * @property Carbon $updated_at
+ * @property-read EloquentCollection<int, Event> $events
  */
 class Session extends Model
 {
